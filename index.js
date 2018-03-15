@@ -1,8 +1,10 @@
 
 
 function theBeatlesPlay (musicians, instruments){
-  var musicians =[];
-  for (var i = 0; i < 5; i++){
-  theBeatlesPlay.push("John Lennon plays guitar")
+  var allMusicians =[];
+  for (var i = 0; i < musicians.length; i++){
+  instruments.push("John Lennon plays guitar")
   }
+  
 }
+
