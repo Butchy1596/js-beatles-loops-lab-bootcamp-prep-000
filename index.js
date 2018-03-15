@@ -25,12 +25,13 @@ function iLoveTheBeatles(i){
   var emptyArray =[];
   }
   do {
-    emptyArray = "I love the Beatles!";
-  
-  } while (var i = 0; i <15; i++ ){
-    
+    i = emptyArray.push("I love the Beatles!");
+    i++;
+
+  } while ( i <15);{
+
   }
 
-  return array
+  return emptyArray;
 }
 
